@@ -1,0 +1,29 @@
+<ion-view view-title="Progress" id="progressTab">
+  <ion-content>
+    <!-- <div class="list card border"> -->
+      <div class="item item-body battle">
+        <div id="monster">
+          <div id="monsterStats">
+            <p id="monsterHP"><b>{{weightLeft}}/{{health}}</b></p>
+            <progress id='health', value='{{weightLeft}}', max='{{health}}'></progress> 
+          </div>
+          <img id="monster_img", src="./images/Monster.png"/>
+        </div>
+        <div id="fitWarrior">
+          <!-- <div id="fitWarriorStats">
+            <p><b>100/100</b></p>
+            <progress id='warriorHealth', value='100', max='100'></progress>
+          </div>   -->
+          <div id='weight'>
+            <h2>SW:<b>{{startingWeight}}lbs</b></h2>
+            <h2>CW:<b>{{currentWeight}}lbs</b></h2>
+            <h2>GW:<b>{{goalWeight}}lbs</b></h2>  
+          </div>
+          <img id="warrior_img", src="./images/warrior.png"/>
+        </div>
+        
+    </div>
+    <!-- <p><b>{{weightLeft}}</b> More Pounds To Go!</p> -->
+    <button ng-click="showPopup()" class="button button-clear button-dark newWeight"><b>▶Attack</b></button>
+  </ion-content>
+</ion-view>

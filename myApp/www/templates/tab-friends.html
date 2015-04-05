@@ -1,0 +1,42 @@
+<ion-view view-title="Friends">
+<!--   <div class="tabs-striped tabs-top tabs-background-light tabs-color-dark">
+    <div class="tabs">
+      <a class="tab-item active" href="#">
+
+        Friends
+      </a>
+      <a class="tab-item" href="#">
+
+        Activity
+      </a>
+      <a class="tab-item" href="#">
+
+        Notifications
+      </a>
+    </div>
+  </div> -->
+  <ion-content>
+    <!-- <ion-list> -->
+    <div class="list card friend-box">
+      <div class="item item-body" id="friend-box">
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="friend in friends" type="item item-body" href="#/tab/friends/{{friend.id}}">
+        <!-- <div class="list card"> -->
+        
+        <img ng-src="{{friend.face}}">
+        <h2>{{friend.name}}</h2>
+        <p>{{friend.lastText}}</p>
+        <!-- </div> -->
+        <!-- <div class ="item item-body"> -->
+        <a class="button button-balanced">Challenge</a>
+
+        <ion-option-button class="button-assertive" ng-click="remove(friend)">
+          Delete
+        </ion-option-button>
+        <!-- </div> -->
+      <!--   </div> -->
+      </ion-item>
+      
+    </ion-list>
+    </div>
+  </ion-content>
+</ion-view>

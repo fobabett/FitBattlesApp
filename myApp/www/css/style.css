@@ -1,0 +1,190 @@
+/* Empty. Add your own CSS if you like */
+/*b {
+  color: #BCFF00;
+}*/
+
+.friend-box {
+  -moz-box-shadow: 0 0 15px #ccc;
+  -webkit-box-shadow: 0 0 15px #ccc;
+  box-shadow: 0 0 15px #ccc;
+  border: 5px solid #B3FF22;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.tabs {
+    /*border-color: #28a54c;*/
+    /*background-color: #33cd5f;*/
+    /*background-image: linear-gradient(0deg, #28a54c, #28a54c 50%, transparent 50%);*/
+    /*color: #fff; */
+    box-shadow: 0 4px 2px -2px #ccc;
+}
+
+.tab-nav.tabs {
+    border-color: #28a54c;
+    background-color: #33cd5f;
+    background-image: linear-gradient(0deg, #28a54c, #28a54c 50%, transparent 50%);
+    color: #fff; 
+    box-shadow: 0 -5px 5px -5px #333;
+}
+.item-divider {
+  background-color: #37DDAD;
+}
+a.button.button-balanced {
+  color: #37DDAD;
+  background-color: #FFFFFF;
+  border: 2px solid #37DDAD;
+  box-shadow: -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+  float: right;
+}
+a.button.button-balanced:hover {
+  color: #FFFFFF;
+  background-color: #37DDAD;
+  border: 2px solid #37DDAD;
+  box-shadow: -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+/**/
+.list.card.border {
+   -moz-box-shadow: 0 0 15px #ccc;
+  -webkit-box-shadow: 0 0 15px #ccc;
+  box-shadow: 0 0 15px #ccc;
+  border: 5px solid #B3FF22;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+img#monster_img {
+
+  position: relative;
+  left: 70px;
+  bottom: 0;
+    -webkit-animation: breathing 4s ease-out infinite normal;
+    animation: breathing 4s ease-out infinite normal;
+    -webkit-font-smoothing: antialiased;
+    }
+
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.button.login {
+  background-color: #37DDAD;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+.button.login:hover {
+  background-color: #FFFFFF;
+  color: #37DDAD;
+  border-color: #37DDAD
+}
+.padding.login {
+  position: absolute;
+  top: 25%;
+}
+#progressTab {
+  text-align: center;
+}
+button.button.button-clear.button-dark.newWeight:hover {
+  color: #37DDAD;
+}
+button.button.button-clear.button-dark.newWeight {
+  position: relative;
+  left: 80px;
+  bottom: 10px;
+}
+
+#fitWarriorStats {
+  background-color: #EEEECC;
+  border-radius: 5px;
+  position: absolute;
+  right: 10px;
+  width: 100px;
+}
+progress#warriorHealth {
+  border-radius: 9px;
+}
+progress#warriorHealth::-webkit-progress-value {
+  border-radius: 9px;
+}
+progress#warriorHealth::-webkit-progress-bar {
+  border-radius: 9px;
+}
+
+#monsterStats {
+  width: 100px;
+  border-radius: 5px;
+  background-color: #EEEECC;
+  position: absolute;
+  left: 10px;
+}
+
+img#warrior_img {
+  position: relative;
+  right: 70px;
+  top: 15px;
+}
+#weight {
+  position: relative;
+  left: 80px;
+  top: 100px;
+}
+progress {
+  background-color: red;
+  border-radius: 9px;
+}
+progress#health::-webkit-progress-bar {
+  background-color: #f3f3f3; 
+  border-radius: 9px;
+}
+progress#health::-webkit-progress-value {  
+  background-color: red;
+  border-radius: 9px;
+}  
